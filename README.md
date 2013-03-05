@@ -11,7 +11,7 @@ tours with Twitter Bootstrap Popovers.
 
     https://github.com/sorich87/bootstrap-tour
 
-bootstrap-tour project integrates it with Rails 3 assets
+Bootstrap-tour-rails project integrates it with Rails 3.1+ assets
 pipeline.
 
     https://github.com/tienle/bootstrap-tour-rails
@@ -32,13 +32,9 @@ Or install it yourself as:
     $ gem install bootstrap-tour-rails
 
 
+Assumes that you already have `bootstrap` and `jquery`.
+
 ## Configuration
-
-In app/assets/stylesheets/application.css
-
-``` css
-*= require bootstrap-tour
-```
 
 Add necessary javascript(s) files to app/assets/javascripts/application.js
 
