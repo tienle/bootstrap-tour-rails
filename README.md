@@ -42,7 +42,7 @@ Add necessary javascript(s) files to app/assets/javascripts/application.js
 //= require bootstrap-tour
 ```
 
-Add necessary stylesheet(s) files to app/assets/stylesheets/application.js
+Add necessary stylesheet(s) files to app/assets/stylesheets/application.css
 
 ```
 //= require bootstrap-tour
