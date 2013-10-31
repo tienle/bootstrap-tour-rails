@@ -6,7 +6,7 @@ module Bootstrap
     module Rails
       class Engine < ::Rails::Engine
         initializer "BootstrapTourRails precompile hook", :group => :all do |app|
-          app.config.assets.precompile += %w(bootstrap-tour.js)
+          app.config.assets.precompile += %w(bootstrap-tour.js bootstrap-tour.css)
         end
       end
     end
