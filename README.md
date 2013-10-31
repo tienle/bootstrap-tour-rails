@@ -45,7 +45,7 @@ Add necessary javascript(s) files to app/assets/javascripts/application.js
 Add necessary stylesheet(s) files to app/assets/stylesheets/application.css
 
 ```
-//= require bootstrap-tour
+*= require bootstrap-tour
 ```
 
 You may need to restart your rails server.
